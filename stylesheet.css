@@ -1,3 +1,30 @@
 h2 {
   color: blue;
 }
+
+#social-buttons {
+  margin-top: 50px;
+  align-content: center;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  color: white;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #FFC81C;
+  border-color: white;
+  color: white;
+}
+
