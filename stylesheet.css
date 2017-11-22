@@ -6,10 +6,32 @@ body, html {
     height: 100%;
 }
 
-.bg {
-    background-image: url("Images/team.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#logo {
+
+  padding-top: 10px;
+  width: 10%;
+  position: absolute;
 }
+body {
+  background-image: url("Images/team.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: white;
+}
+
+footer {
+background-color: rgba(50, 43, 94,0.7);
+position: absolute;
+bottom: 0px;
+height: 50px;
+width: 100%;
+display: block;
+}
+/*
+div semi transparent abso
+*/
