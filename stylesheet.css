@@ -1,3 +1,15 @@
 h2 {
   color: blue;
 }
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("Images/team.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
