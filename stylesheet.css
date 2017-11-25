@@ -9,7 +9,8 @@ body, html {
 #logo {
   padding-top: 10px;
   padding-left: 5px;
-  width: 10%;
+  width: -300%;
+  height: -300%
   position: absolute;
 }
 
@@ -126,7 +127,6 @@ hr{
   width: 20%;
   position:fixed;
   left: 80px;
-
 }
 
 .fa-twitter {
@@ -150,11 +150,22 @@ hr{
     color:#00008b;
 }
 
+.form:hover{
+  text-decoration: none;
+  color: white;
+}
+
 footer {
 background-color: #262626;
 position: absolute;
 bottom: 0px;
-height: 70px;
+height: 45px;
 width: 100%;
 display: block;
+}
+
+.footer-list {
+  position: relative;
+  left: 40%;
+  font-size: 20px;
 }
