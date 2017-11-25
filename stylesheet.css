@@ -7,18 +7,19 @@ body, html {
 }
 
 #logo {
-
   padding-top: 10px;
   padding-left: 5px;
   width: 10%;
   position: absolute;
 }
+
 body {
   background-image: url("Images/team.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Poppins', sans-serif
 }
 
 a {
@@ -26,6 +27,9 @@ a {
   font-weight: normal;
   padding: 10px 5px;
   font-size: 16px;
+}
+a:visited {
+  color: white;
 }
 
 ul{
@@ -40,42 +44,75 @@ li {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: [main-start] 1fr 1fr [main-end];
-  grid-template-rows: [main-start] 100px 100px [main-end];
-  grid-gap: 30px;
+/*  display: grid;
+  grid-template-columns: [main-start] 0fr;
+  grid-gap: 5px; */
 }
 
+.modal-header {
+  padding-bottom: 0;
+  border: none;
+}
 .form-control {
   border: 1px soild #999;
   border-radius: 10;
   height: 35px;
 }
 
-.box1 {
-  grid-column-start: main-start;
-  grid-row-start: main-start;
-  grid-row-end: main-end;
+#myModalLabel {
+  color: white;
+  font-size: 35px;
+  text-align: center;
 }
 
-.box4 {
-  grid-column-start: content-start;
-  grid-column-end: main-end;
-  grid-row-start: content-end;
-  padding-left: 50%;
+.modal-content {
+  background-color: rgba(0,111,147,0.7);
 }
 
-#exampleInputname {
-  width: 100%
+
+
+#address {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: -30px;
+  left: 10px;
+
 }
+
+#iconcol {
+  width: 40%;
+  align-items: flex-start;
+  padding-right: 40px;
+
+}
+#textcol {
+  width: 60%;
+  text-align: left;
+}
+.box1{
+width: 50%;
+height:100%;
+padding: 0 0 0% 0%;
+float: left }
+
+.box2{
+width: 50%;
+padding: 0 5% 0 0;
+float: left}
+
+.modal-footer {
+  padding: 10px;
+  border: none;
+}
+
+
+
 footer {
-background-color: rgba(50, 43, 94,0.7);
+background-color: #262626;
 position: absolute;
 bottom: 0px;
-height: 50px;
+height: 70px;
 width: 100%;
 display: block;
 }
-/*
-div semi transparent abso
-*/

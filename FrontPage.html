@@ -5,6 +5,8 @@
   <link href = 'bootstrap-3.3.7-dist/css/bootstrap.css' type='text/css' rel = 'stylesheet' >
   <link rel="stylesheet" type="text/css" href="stylesheet.css"
   <meta name = "viewport"   content = "width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -21,54 +23,77 @@
    <!-- main page content goes in here -->
  </div>
 
- <footer>
-     <ul>
-       <li><a href="http://www.enterprisecube.org/support/">Support</a></li>
-       <li><a href="http://www.enterprisecube.org/about-us/">About Us</a></li>
-       <li><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-       contact form</a></li>
-      </ul>
-
-
- <!-- Modal -->
+ <!-- Contact Form -->
  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
    <div class="modal-dialog" role="document">
      <div class="modal-content">
        <div class="modal-header">
          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-         <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
        </div>
        <div class="modal-body">
          <form>
            <div class="form-group">
            <div class="wrapper">
              <div class="box1">
-               <label for="exampleInputname">Name</label>
-               <input type="name" class="form-control" id="exampleInputname" placeholder="Name">
-               <br>
-               <label for="exampleInputemail">Email</label>
-               <input type="email" class="form-control" id="exampleInputemail" placeholder="Email"></div>
-               <div class="form-group">
-               <div class="box2">
-               <label for="exampleInputmessage">Message</label>
-               <textarea class="form-control" id="exampleInputmessage" placeholder="Message" rows="7"></textarea></div>
+               <h4 class="modal-title" id="myModalLabel">Get in touch</h4>
+                <div address id="address">
+               <table style="width:50%">
+                 <tr>
+                   <th id="iconcol"></th>
+                   <th id="textcol"></th>
+                 </tr>
+                 <tr>
+                <td><i class="material-icons" style="font-size:24px;color:red">place</i></td>
+                 <td> <a href="https://tinyurl.com/y7xy65xk" target="_blank"> 73 Park Lane
+                 <br>
+                 Croydon, CR0 1JG </td></a>
+                 <br>
+               </tr>
+               <tr>
+                <td><i class="material-icons"style="font-size:24px">email</i></td>
+                <td><a href="mailto:info@enterprisecube.org" target="_top">info@enterprisecube.org</td></a>
+                 <br>
+               </tr>
+               <tr>
+                 <td><i class="material-icons" style="font-size:24px">call</i></td>
+                 <td>+44(0)7749 332 505</td>
+                </tr>
+              </table>
              </div>
+           </div>
+               <div class="box2">
+                 <input type="name" class="form-control" id="exampleInputname" placeholder="Name">
+                 <br>
+                 <input type="email" class="form-control" id="exampleInputemail" placeholder="Email">
+                 <br>
+                 <div class="form-group">
+                 <textarea class="form-control" id="exampleInputmessage" placeholder="Message" rows="5"></textarea>
+                </div>
+               </div>
+             </div>
+           </div>
+         </form>
+           </div>
+           <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
              </div>
            </div>
          </div>
 
-       <div class="modal-footer">
-         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-         <button type="button" class="btn btn-primary">Save changes</button>
-       </div>
-     </div>
-   </div>
- </div>
- </footer>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <footer>
+        <ul>
+          <li><a href="http://www.enterprisecube.org/support/">Support</a></li>
+          <li><a href="http://www.enterprisecube.org/about-us/">About Us</a></li>
+          <li><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          contact form</a></li>
+         </ul>
+         </footer>
 </body>
 
 
