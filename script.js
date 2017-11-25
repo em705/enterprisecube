@@ -1,18 +1,3 @@
-(function($) {
-
-	'use strict';
-
-	var $slides = $('[data-slides]');
-	var images = $slides.data('slides');
-	var count = images.length;
-	var slideshow = function() {
-		$slides
-			.css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
-			.show(0, function() {
-				setTimeout(slideshow, 5000);
-			});
-	};
-
-	slideshow();
-
-}(jQuery));
+function confirm_reset() {
+    return confirm("Are you sure you want to reset all text?");
+}
