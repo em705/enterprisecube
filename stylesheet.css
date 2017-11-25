@@ -9,6 +9,7 @@ body, html {
 #logo {
 
   padding-top: 10px;
+  padding-left: 5px;
   width: 10%;
   position: absolute;
 }
@@ -22,8 +23,51 @@ body {
 
 a {
   color: white;
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: 16px;
 }
 
+ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+li {
+   display: inline-block;
+   padding: 5px 5px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: [main-start] 1fr 1fr [main-end];
+  grid-template-rows: [main-start] 100px 100px [main-end];
+  grid-gap: 30px;
+}
+
+.form-control {
+  border: 1px soild #999;
+  border-radius: 10;
+  height: 35px;
+}
+
+.box1 {
+  grid-column-start: main-start;
+  grid-row-start: main-start;
+  grid-row-end: main-end;
+}
+
+.box4 {
+  grid-column-start: content-start;
+  grid-column-end: main-end;
+  grid-row-start: content-end;
+  padding-left: 50%;
+}
+
+#exampleInputname {
+  width: 100%
+}
 footer {
 background-color: rgba(50, 43, 94,0.7);
 position: absolute;
