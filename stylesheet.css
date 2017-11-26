@@ -194,7 +194,7 @@ footer {
 }
 
 #sub {
-  height: 35%;
+  height: 20%;
 }
 
 .form-horizontal {
@@ -208,4 +208,15 @@ footer {
   background-color: white;
   border-color: white;
   color: black;
+}
+
+h1#title {
+  font-family:"Enriqueta";
+  font-style: bold;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
 }
