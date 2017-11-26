@@ -10,7 +10,7 @@ body, html {
   padding-top: 10px;
   padding-left: 5px;
   width: -300%;
-  height: -300%
+  height: -300%;
   position: absolute;
 }
 
@@ -30,10 +30,12 @@ a {
   font-size: 16px;
   text-decoration: none;
 }
+
 a:visited {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -135,6 +137,7 @@ hr{
   bottom: 80px;
   left: 110px;
 }
+
 .fa-facebook {
   color: white;
   position: fixed;
@@ -156,12 +159,12 @@ hr{
 }
 
 footer {
-background-color: #262626;
-position: absolute;
-bottom: 0px;
-height: 45px;
-width: 100%;
-display: block;
+  background-color: #262626;
+  position: absolute;
+  bottom: 0px;
+  height: 45px;
+  width: 100%;
+  display: block;
 }
 
 .footer-list {
@@ -170,3 +173,39 @@ display: block;
   font-size: 20px;
 }
 
+#twit {
+  color: white;
+  position: static;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#face {
+  color: white;
+  position: static;
+  float: right;
+  padding-top: 20px;
+  padding-right: 40px;
+} 
+
+#Login-Register {
+  height: 90%;
+}
+
+#sub {
+  height: 35%;
+}
+
+.form-horizontal {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
