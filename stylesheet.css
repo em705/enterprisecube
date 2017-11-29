@@ -220,12 +220,13 @@ footer {
     color:#00008b;
 }
 
-#Login-Register {
+#Login-Register .flexcontainer {
   min-height: 100vh;
   position: relative;
   display: flex;
   flex-flow: column;
-  justify-content: center}
+  justify-content: center
+}
 
 #sub {
   /*height: 20%;*/
@@ -263,7 +264,7 @@ h1#title {
   padding: 30px;
 }
 
-div#container_support {
+#container_support .flexcontainer {
   position: relative;
   display: flex;
   flex-flow: column;
@@ -319,12 +320,6 @@ div#about-us {
   border-color: lightgrey;
 }
 
-#parallax { 
-  max-width: 500px; 
-  margin: 1rem auto;
-  padding: 1rem;
-}
-
 h5 {
   font-family: 'Poppins';
   font-weight: bold;
@@ -333,3 +328,6 @@ h5 {
   padding-top: 5px;
 }
 
+.row {
+  margin: 0;
+}
