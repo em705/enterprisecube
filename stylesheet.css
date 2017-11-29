@@ -46,8 +46,16 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  border-color: none;
 }
 
+.form {
+  cursor: pointer;
+}
+
+.footer-list-bottom a:hover {
+  color: grey;
+}
 
 ul {
   list-style: none;
@@ -213,11 +221,14 @@ footer {
 }
 
 #Login-Register {
-  height: 90%;
-}
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center}
 
 #sub {
-  height: 20%;
+  /*height: 20%;*/
 }
 
 .form-horizontal {
@@ -270,6 +281,7 @@ div#container_support {
 #signin {
   display: block;
   margin: 0 auto;
+
 }
 
 div#about-us {
@@ -288,11 +300,13 @@ div#about-us {
 
 .teambox {
   background-color: rgba(16, 37, 63, 0.9);
-  margin: 45px;
   border-radius: 10px;
   text-align: center;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
+
 
 #material-icons {
   font-family: 'Material+icons';
@@ -300,7 +314,7 @@ div#about-us {
 
 #clickhere {
   display: block;
-  margin-bottom: 20px;
+  margin: 0 auto;
   background-color: lightgrey;
   border-color: lightgrey;
 }
